@@ -1,0 +1,112 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %} 
+<!--breadcumb start here-->
+<div class="section breadcumb-area background-image"  data-src="assets/images/inner-banner.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <ul>
+                    <li>Creative</li>
+                    <li><a href="index.html"> Home </a>/ Contact </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--breadcumb end here--><!-- contact start section -->
+<div class="section location-area">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div class="location-slide">
+                                    <img src="assets/images/contact/1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="contact-info">
+                                    <h3>Contact Info</h3>
+                                    <p>Contact us today to see how Camsoft can help your business </p>
+                                    <ul>
+                                        <!-- <li>
+                                            <h5><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h5>
+                                            <span>Lind Road 0307, London</span>
+                                        </li> -->
+                                        <li>
+                                            <h5><i class="fa fa-phone" aria-hidden="true"></i> Phone</h5>
+                                            <span> 00 353 851100902</span>
+                                        </li>
+                                        <li>
+                                            <h5><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</h5>
+                                            <span><a href="mailto:contact@camsoft.ie">contact@camsoft.ie</a> </span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="social-media">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>                    
+                                        
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--contact end section -->
+
+<!--contact form start section -->
+<div class="section contact-form-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form">
+                    <form> 
+                        <div class="row">                    
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>          
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Your Email">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Your Subject">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="col-sm-12">
+                                    <textarea class="form-control" rows="3" placeholder="Type Your Message"></textarea>
+                            </div>           
+
+                            <div class="col-sm-4">
+                                <a href="#" class="btn btn-default send">Send</a>
+                            </div>
+                        </div>                
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div><!--contact form end section -->
+
+    
+{% endblock content %}

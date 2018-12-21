@@ -1,0 +1,1076 @@
+/*!
+Theme Name: Creative - Technology HTML Template
+Theme URI: https://themeforest.net/user/shahzad11
+Author: shahzad
+Author URI: https://themeforest.net/user/shahzad11
+Description: Creative - Technology HTML is the Template which design and development for merend technology template.
+Version : 1.0.1
+
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width: 1700px) {
+  .breadcumb-area {
+    padding: 70px 0 !important;
+  }
+
+  .feature-area,
+  .team-area {
+    padding: 70px 0;
+  }
+
+  .services-area,
+  .counter-area,
+  .testimonial-area,
+  .footer-top-area,
+  .about-area,
+  .skill-area,
+  .activities-area,
+  .price-area,
+  .single-services-area,
+  .portfolio-area-two,
+  .portfolio-area-three,
+  .contact-form-area,
+  .blog-area,
+  .single-blog-area {
+    padding: 70px 0;
+  }
+
+  .portfolio-area,
+  .home-blog-area {
+    padding: 70px 0 70px;
+  }
+
+  .consultation-area,
+  .whychoose-area {
+    padding: 70px 0 0;
+  }
+
+  .error-area {
+    padding: 65px 0 70px;
+  }
+
+  .location-area {
+    padding: 70px 0 0;
+  }
+
+  .home-blog-area .home-blog-slide .owl-buttons div {
+    height: 40px;
+    width: 40px;
+    top: 50%;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div i {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div.owl-prev {
+    left: -2%;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div.owl-next {
+    right: -2%;
+  }
+
+  .team-area .team-member-slide .single-team .team-details h3 {
+    font-size: 18px;
+  }
+  .team-area .team-member-slide .owl-buttons div {
+    height: 40px;
+    width: 40px;
+  }
+  .team-area .team-member-slide .owl-buttons div i {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .team-area .team-member-slide .owl-buttons div.owl-prev {
+    left: -2%;
+  }
+  .team-area .team-member-slide .owl-buttons div.owl-next {
+    right: -2%;
+  }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .header-area .navbar-brand img {
+    width: 160px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    font-size: 13px;
+  }
+  .breadcumb-area {
+    padding: 70px 0 !important;
+  }
+
+  .feature-area,
+  .team-area {
+    padding: 70px 0;
+  }
+
+  .services-area,
+  .counter-area,
+  .testimonial-area,
+  .footer-top-area,
+  .about-area,
+  .skill-area,
+  .activities-area,
+  .price-area,
+  .single-services-area,
+  .portfolio-area-two,
+  .portfolio-area-three,
+  .contact-form-area,
+  .blog-area,
+  .single-blog-area {
+    padding: 70px 0;
+  }
+
+  .portfolio-area,
+  .home-blog-area {
+    padding: 70px 0 70px;
+  }
+
+  .consultation-area,
+  .whychoose-area {
+    padding: 70px 0 0;
+  }
+
+  .error-area {
+    padding: 65px 0 70px;
+  }
+
+  .location-area {
+    padding: 70px 0 0;
+  }
+
+  .feature-area .feature-slide .single-slide {
+    padding: 0;
+  }
+
+  .counter-area .ab-count .about-counter-list h1.about-counter {
+    font-size: 36px;
+  }
+  .counter-area .ab-count .about-counter-list p {
+    font-size: 14px;
+  }
+
+  .home-blog-area .home-blog-slide .owl-buttons div {
+    height: 30px;
+    width: 30px;
+    top: 50%;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div i {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div.owl-prev {
+    left: -1%;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div.owl-next {
+    right: -1%;
+  }
+
+  .about-area::after {
+    left: -190px;
+  }
+
+  .team-area .team-member-slide .single-team .team-details h3 {
+    font-size: 16px;
+  }
+  .team-area .team-member-slide .owl-buttons div {
+    height: 30px;
+    width: 30px;
+  }
+  .team-area .team-member-slide .owl-buttons div i {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .team-area .team-member-slide .owl-buttons div.owl-prev {
+    left: -2%;
+  }
+  .team-area .team-member-slide .owl-buttons div.owl-next {
+    right: -2%;
+  }
+
+  .single-services-area .single-services-content .other-services .nav-tabs li a {
+    padding: 8px 40px;
+  }
+
+  .single-blog-area .share-area .share ul li i {
+    height: 38px;
+    line-height: 38px;
+    width: 38px;
+  }
+
+  .single-blog-area .author-details .media .media-body {
+    padding: 25px;
+  }
+
+  .location-area ul.nav-tabs li a {
+    padding: 15px 56px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .section.contact-form-area {
+    overflow: hidden;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #3c3c3a;
+  }
+  .breadcumb-area {
+    padding: 70px 0 !important;
+  }
+
+  .feature-area,
+  .team-area {
+    padding: 50px 0;
+  }
+
+  .services-area,
+  .counter-area,
+  .testimonial-area,
+  .footer-top-area,
+  .about-area,
+  .skill-area,
+  .activities-area,
+  .price-area,
+  .single-services-area,
+  .portfolio-area-two,
+  .portfolio-area-three,
+  .contact-form-area,
+  .blog-area,
+  .single-blog-area {
+    padding: 50px 0;
+  }
+
+  .portfolio-area,
+  .home-blog-area {
+    padding: 50px 0 50px;
+  }
+
+  .consultation-area,
+  .whychoose-area {
+    padding: 50px 0 0;
+  }
+
+  .error-area {
+    padding: 55px 0 60px;
+  }
+
+  .location-area {
+    padding: 50px 0 0;
+  }
+
+  .feature-area .feature-slide .single-slide {
+    padding: 0;
+  }
+
+  .counter-area .ab-count .about-counter-list h1.about-counter {
+    font-size: 36px;
+  }
+  .counter-area .ab-count .about-counter-list p {
+    font-size: 14px;
+  }
+
+  .home-blog-area .home-blog-slide .owl-buttons div {
+    height: 30px;
+    width: 30px;
+    top: 50%;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div i {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div.owl-prev {
+    left: -1%;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div.owl-next {
+    right: -1%;
+  }
+
+  .about-area::after,
+  .team-area .single-team .image .overley .content p::before {
+    display: none;
+  }
+
+  .team-area .team-member-slide .single-team .team-details h3 {
+    font-size: 16px;
+  }
+  .team-area .team-member-slide .owl-buttons div {
+    height: 30px;
+    width: 30px;
+  }
+  .team-area .team-member-slide .owl-buttons div i {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .team-area .team-member-slide .owl-buttons div.owl-prev {
+    left: -2%;
+  }
+  .team-area .team-member-slide .owl-buttons div.owl-next {
+    right: -2%;
+  }
+
+  .single-services-area .single-services-content .other-services .nav-tabs li a {
+    padding: 8px 20px;
+  }
+
+  .single-blog-area .share-area .share ul li i {
+    height: 38px;
+    line-height: 38px;
+    width: 38px;
+  }
+
+  .single-blog-area .author-details .media .media-body {
+    padding: 25px;
+  }
+
+  .location-area ul.nav-tabs li a {
+    padding: 15px 20px !important;
+  }
+
+  .header-area {
+    position: relative;
+  }
+
+  .services-area .services-list ul li .single-services h3 a {
+    font-size: 16px;
+  }
+
+  .services-area .services-list ul li {
+    padding: 5px;
+  }
+
+  .whychoose-area .whychoose-list ul li .media .media-body h4 {
+    font-size: 17px;
+  }
+
+  .slider-area .slider-1 .slider-button ul li a,
+  .slider-area .slider-2 .slider-button ul li a,
+  .slider-area .slider-3 .slider-button ul li a {
+    padding: 10px 15px;
+  }
+
+  .breadcumb-area {
+    padding: 100px 0;
+  }
+
+  .activities-area .single-activities .content h3 {
+    font-size: 16px;
+  }
+
+  .single-services-area .single-services-content .call-to-action h3 {
+    font-size: 17px;
+  }
+
+  .single-services-area .single-services-content .call-to-action .read-more a.contact-us {
+    padding: 10px !important;
+  }
+
+  .team-area .single-team .team-details {
+    padding: 10px;
+  }
+
+  .team-area .single-team .image .overley .content p {
+    line-height: 1.5;
+  }
+
+  .team-area .single-team .image .overley .content {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .team-area .single-team .image .overley .content .social-media ul li,
+  .team-area .team-style-three .single-team3 .image .inner-image .overley .content .social-media ul li {
+    margin-right: 0;
+  }
+
+  .team-area .single-team .team-details h3,
+  .team-area .team-style-two #list .item .image .overley .designation h4,
+  .team-area .team-style-three .single-team3 .team-details h3 {
+    font-size: 16px;
+  }
+
+  .sidebar-area .widget.widget_promo_ad .image .overley .content p {
+    font-size: 20px;
+  }
+
+  .single-blog-area .share-area .share ul li,
+  .single-blog-area .author-details .media .media-body ul li {
+    margin: 2px;
+  }
+
+  .location-area .tab-content .team-manger .social-media ul li {
+    margin: -2px;
+  }
+
+  .consultation-area .man-image,
+  .whychoose-area .man-image,
+  .about-area .about-image {
+    position: relative !important;
+    top: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .team-area .team-style-three .single-team3 .team-details {
+    padding: 15px 0;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgba(0, 0, 0, 0);
+    position: absolute !important;
+    z-index: 99 !important;
+    background: #e5e5e5 !important;
+    right: 15px;
+    left: 15px;
+    /*width: 100% !important;*/
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .breadcumb-area {
+    padding: 70px 0 !important;
+  }
+
+  .feature-area,
+  .team-area {
+    padding: 50px 0;
+  }
+
+  .services-area,
+  .counter-area,
+  .testimonial-area,
+  .footer-top-area,
+  .about-area,
+  .skill-area,
+  .activities-area,
+  .price-area,
+  .single-services-area,
+  .portfolio-area-two,
+  .portfolio-area-three,
+  .contact-form-area,
+  .blog-area,
+  .single-blog-area {
+    padding: 50px 0;
+  }
+
+  .portfolio-area,
+  .home-blog-area {
+    padding: 50px 0 50px;
+  }
+
+  .consultation-area,
+  .whychoose-area {
+    padding: 50px 0 0;
+  }
+
+  .error-area {
+    padding: 55px 0 60px;
+  }
+
+  .location-area {
+    padding: 50px 0 0;
+  }
+
+  .section,
+  .breadcumb-area {
+    padding: 50px 0 !important;
+  }
+
+  .single-services-area .single-services-content .call-to-action {
+    margin: 0 0 30px;
+  }
+
+  .single-services-area .single-services-content .what-client-say {
+    margin-top: 30px;
+  }
+
+  .nivo-directionNav a {
+    top: 30% !important;
+  }
+
+  .feature-area .feature-slide .single-slide {
+    padding: 0;
+  }
+
+  .counter-area .ab-count .about-counter-list h1.about-counter {
+    font-size: 36px;
+  }
+  .counter-area .ab-count .about-counter-list p {
+    font-size: 14px;
+  }
+
+  .home-blog-area .home-blog-slide .owl-buttons div {
+    height: 30px;
+    width: 30px;
+    top: 50%;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div i {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div.owl-prev {
+    left: -1%;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div.owl-next {
+    right: -1%;
+  }
+
+  .about-area::after,
+  .team-area .single-team .image .overley .content p::before {
+    display: none;
+  }
+
+  .team-area .team-member-slide .single-team .team-details h3 {
+    font-size: 16px;
+  }
+  .team-area .team-member-slide .owl-buttons div {
+    height: 30px;
+    width: 30px;
+  }
+  .team-area .team-member-slide .owl-buttons div i {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .team-area .team-member-slide .owl-buttons div.owl-prev {
+    left: -2%;
+  }
+  .team-area .team-member-slide .owl-buttons div.owl-next {
+    right: -2%;
+  }
+
+  .single-services-area .single-services-content .other-services .nav-tabs li a {
+    padding: 8px 18px;
+    margin: 2px;
+  }
+
+  .single-blog-area .share-area .share ul li i {
+    height: 38px;
+    line-height: 38px;
+    width: 38px;
+  }
+
+  .single-blog-area .author-details .media .media-body {
+    padding: 25px;
+  }
+
+  .location-area ul.nav-tabs li a {
+    padding: 15px 20px !important;
+  }
+
+  .header-area {
+    position: relative;
+  }
+
+  .services-area .services-list ul li .single-services h3 a {
+    font-size: 16px;
+  }
+
+  .services-area .services-list ul li {
+    padding: 5px;
+    border: none;
+    width: 100%;
+  }
+
+  .whychoose-area .whychoose-list ul li .media .media-body h4 {
+    font-size: 17px;
+  }
+
+  .slider-area .slider-1 .slider-button ul li a,
+  .slider-area .slider-2 .slider-button ul li a,
+  .slider-area .slider-3 .slider-button ul li a {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .breadcumb-area {
+    padding: 100px 0;
+  }
+
+  .activities-area .single-activities .content h3 {
+    font-size: 16px;
+  }
+
+  .single-services-area .single-services-content .call-to-action h3 {
+    font-size: 17px;
+  }
+
+  .single-services-area .single-services-content .call-to-action .read-more a.contact-us {
+    padding: 10px !important;
+    display: block;
+    margin: 20px 0 0;
+  }
+
+  .team-area .single-team .team-details {
+    padding: 10px;
+  }
+
+  .team-area .single-team .image .overley .content p {
+    line-height: 1.5;
+  }
+
+  .team-area .single-team .image .overley .content .social-media ul li,
+  .team-area .team-style-three .single-team3 .image .inner-image .overley .content .social-media ul li {
+    margin-right: 0;
+  }
+
+  .team-area .single-team .team-details h3,
+  .team-area .team-style-two #list .item .image .overley .designation h4,
+  .team-area .team-style-three .single-team3 .team-details h3 {
+    font-size: 16px;
+  }
+
+  .sidebar-area .widget.widget_promo_ad .image .overley .content p {
+    font-size: 20px;
+  }
+
+  .single-blog-area .share-area .share ul li,
+  .single-blog-area .author-details .media .media-body ul li {
+    margin: 2px;
+  }
+
+  .location-area .tab-content .team-manger .social-media ul li {
+    margin: -2px;
+  }
+
+  .header-top-right {
+    margin-top: -20px;
+  }
+
+  .header-top-area .header-top-left .social-media,
+  .header-top-area .header-top-right ul,
+  .counter-area .ab-count .about-counter-list,
+  .single-services-area .single-services-content .call-to-action {
+    text-align: center;
+  }
+
+  .portfolio-area .portfolio .filtering-button,
+  .portfolio-area-two .portfolio .filtering-button,
+  .portfolio-area-three .portfolio .filtering-button {
+    height: auto;
+  }
+
+  .portfolio-area .portfolio .filtering-button a,
+  .portfolio-area-two .portfolio .filtering-button a,
+  .portfolio-area-three .portfolio .filtering-button a,
+  .location-area ul.nav-tabs li {
+    margin: 0 1px 5px 1px;
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+
+  .counter-area .ab-count .about-counter-list .title {
+    left: 0;
+    position: relative;
+    top: 0;
+  }
+
+  .counter-area .ab-count .about-counter-list {
+    margin: 30px 0;
+  }
+
+  .counter-area.background-image {
+    background-size: cover;
+  }
+
+  .consultation-area .man-image,
+  .whychoose-area .man-image {
+    position: relative;
+    top: 18px;
+    margin: 0;
+  }
+
+  .single-blog {
+    margin: 30px 0;
+  }
+
+  .home-blog-area .home-blog-slide .single-blog .blog-content strong span {
+    margin-right: 10px;
+  }
+
+  .consultation-area .consultation-form .nice-select {
+    margin-bottom: 30px;
+  }
+
+  .team-area .team-member-slide .single-team {
+    margin-top: 30px;
+  }
+
+  .sidebar-area .widget.widget_promo_ad .image .overley .content {
+    top: 35%;
+  }
+
+  .team-area .team-style-two #list .item {
+    width: 100%;
+  }
+
+  .error-area .error-page p {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .location-area .tab-content .social-media {
+    margin: 30px 0;
+  }
+
+  .error-area .error-page h2 {
+    font-size: 100px;
+  }
+
+  .single-blog-area .comments-area .single-comments-box.second-comments {
+    margin-left: 0;
+  }
+
+  .single-blog-area .form {
+    margin-top: 60px;
+  }
+
+  .error-area .error-page h3 {
+    font-size: 28px;
+  }
+
+  .single-blog-area .share-area .share ul {
+    text-align: left !important;
+  }
+
+  .single-blog-area .author-details .media .pull-left {
+    margin-right: 0px;
+    float: inherit !important;
+    display: block;
+  }
+
+  .single-blog-area .author-details .media .pull-left a img {
+    display: block;
+    width: 100%;
+  }
+
+  .section.contact-form-area {
+    overflow: hidden;
+  }
+
+  .single-services-area .single-services-content .what-client-say {
+    margin-top: 50px !important;
+  }
+
+  .about-area .about-content h2:after {
+    display: none;
+  }
+
+  .about-area .about-content h2 {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+  .breadcumb-area {
+    padding: 70px 0 !important;
+  }
+
+  .feature-area,
+  .team-area {
+    padding: 50px 0;
+  }
+
+  .services-area,
+  .counter-area,
+  .testimonial-area,
+  .footer-top-area,
+  .about-area,
+  .skill-area,
+  .activities-area,
+  .price-area,
+  .single-services-area,
+  .portfolio-area-two,
+  .portfolio-area-three,
+  .contact-form-area,
+  .blog-area,
+  .single-blog-area {
+    padding: 50px 0;
+  }
+
+  .portfolio-area,
+  .home-blog-area {
+    padding: 50px 0 50px;
+  }
+
+  .consultation-area,
+  .whychoose-area {
+    padding: 50px 0 0;
+  }
+
+  .error-area {
+    padding: 55px 0 60px;
+  }
+
+  .location-area {
+    padding: 50px 0 0;
+  }
+
+  .feature-area .feature-slide .single-slide {
+    padding: 0;
+  }
+
+  .counter-area .ab-count .about-counter-list h1.about-counter {
+    font-size: 36px;
+  }
+  .counter-area .ab-count .about-counter-list p {
+    font-size: 14px;
+  }
+
+  .home-blog-area .home-blog-slide .owl-buttons div {
+    height: 30px;
+    width: 30px;
+    top: 50%;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div i {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div.owl-prev {
+    left: -1%;
+  }
+  .home-blog-area .home-blog-slide .owl-buttons div.owl-next {
+    right: -1%;
+  }
+
+  .about-area::after,
+  .team-area .single-team .image .overley .content p::before {
+    display: none;
+  }
+
+  .team-area .team-member-slide .single-team .team-details h3 {
+    font-size: 16px;
+  }
+  .team-area .team-member-slide .owl-buttons div {
+    height: 30px;
+    width: 30px;
+  }
+  .team-area .team-member-slide .owl-buttons div i {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .team-area .team-member-slide .owl-buttons div.owl-prev {
+    left: -2%;
+  }
+  .team-area .team-member-slide .owl-buttons div.owl-next {
+    right: -2%;
+  }
+
+  .single-services-area .single-services-content .other-services .nav-tabs li a {
+    padding: 8px 18px;
+    margin: 2px;
+  }
+
+  .single-blog-area .share-area .share ul li i {
+    height: 38px;
+    line-height: 38px;
+    width: 38px;
+  }
+
+  .single-blog-area .author-details .media .media-body {
+    padding: 25px;
+  }
+
+  .location-area ul.nav-tabs li a {
+    padding: 15px 20px !important;
+  }
+
+  .header-area {
+    position: relative;
+  }
+
+  .services-area .services-list ul li .single-services h3 a {
+    font-size: 16px;
+  }
+
+  .services-area .services-list ul li {
+    padding: 5px;
+    border: none;
+    width: 100%;
+  }
+
+  .whychoose-area .whychoose-list ul li .media .media-body h4 {
+    font-size: 17px;
+  }
+
+  .slider-area .slider-1 .slider-button ul li a,
+  .slider-area .slider-2 .slider-button ul li a,
+  .slider-area .slider-3 .slider-button ul li a {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .breadcumb-area {
+    padding: 100px 0;
+  }
+
+  .activities-area .single-activities .content h3 {
+    font-size: 16px;
+  }
+
+  .single-services-area .single-services-content .call-to-action h3 {
+    font-size: 17px;
+  }
+
+  .single-services-area .single-services-content .call-to-action .read-more a.contact-us {
+    padding: 10px !important;
+    display: block;
+    margin: 20px 0 0;
+  }
+
+  .team-area .single-team .team-details {
+    padding: 10px;
+  }
+
+  .team-area .single-team .image .overley .content p {
+    line-height: 1.5;
+  }
+
+  .team-area .single-team .image .overley .content .social-media ul li,
+  .team-area .team-style-three .single-team3 .image .inner-image .overley .content .social-media ul li {
+    margin-right: 0;
+  }
+
+  .team-area .single-team .team-details h3,
+  .team-area .team-style-two #list .item .image .overley .designation h4,
+  .team-area .team-style-three .single-team3 .team-details h3 {
+    font-size: 16px;
+  }
+
+  .sidebar-area .widget.widget_promo_ad .image .overley .content p {
+    font-size: 20px;
+  }
+
+  .single-blog-area .share-area .share ul li,
+  .single-blog-area .author-details .media .media-body ul li {
+    margin: 2px;
+  }
+
+  .location-area .tab-content .team-manger .social-media ul li {
+    margin: -2px;
+  }
+
+  .header-top-right {
+    margin-top: -20px;
+  }
+
+  .header-top-area .header-top-left .social-media,
+  .header-top-area .header-top-right ul,
+  .counter-area .ab-count .about-counter-list,
+  .single-services-area .single-services-content .call-to-action {
+    text-align: center;
+  }
+
+  .portfolio-area .portfolio .filtering-button,
+  .portfolio-area-two .portfolio .filtering-button,
+  .portfolio-area-three .portfolio .filtering-button {
+    height: auto;
+  }
+
+  .portfolio-area .portfolio .filtering-button a,
+  .portfolio-area-two .portfolio .filtering-button a,
+  .portfolio-area-three .portfolio .filtering-button a,
+  .location-area ul.nav-tabs li {
+    margin: 0px 1px 5px 1px;
+  }
+
+  .grid-item {
+    width: 100%;
+  }
+
+  .counter-area .ab-count .about-counter-list .title {
+    left: 0;
+    position: relative;
+    top: 0;
+  }
+
+  .counter-area .ab-count .about-counter-list {
+    margin: 30px 0;
+  }
+
+  .counter-area.background-image {
+    background-size: cover;
+  }
+
+  .consultation-area .man-image,
+  .whychoose-area .man-image {
+    position: relative;
+    top: 18px;
+    margin: 0;
+  }
+
+  .single-blog {
+    margin: 30px 0;
+  }
+
+  .home-blog-area .home-blog-slide .single-blog .blog-content strong span {
+    margin-right: 10px;
+  }
+
+  .consultation-area .consultation-form .nice-select {
+    margin-bottom: 30px;
+  }
+
+  .team-area .team-member-slide .single-team {
+    margin-top: 30px;
+  }
+
+  .sidebar-area .widget.widget_promo_ad .image .overley .content {
+    top: 35%;
+  }
+
+  .team-area .team-style-two #list .item {
+    width: 100%;
+  }
+
+  .error-area .error-page p {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .location-area .tab-content .social-media {
+    margin: 30px 0;
+  }
+
+  .error-area .error-page h2 {
+    font-size: 100px;
+  }
+
+  .single-blog-area .comments-area .single-comments-box.second-comments {
+    margin-left: 0;
+  }
+
+  .single-blog-area .form {
+    margin-top: 60px;
+  }
+
+  #scrollUp {
+    bottom: 60px;
+  }
+  
+  #botDiv {
+    right: 15px;
+  }
+
+  #botTitleBar {
+    width: 290px;
+  }
+
+  #botDiv iframe {
+    width: 290px !important;
+  }
+}
